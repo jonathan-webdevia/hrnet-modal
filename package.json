@@ -1,0 +1,34 @@
+{
+  "name": "boolmodalresponser",
+  "version": "1.0",
+  "description": "A simple modal component",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "yarn clean && tsc && cp package.json README.md ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-webdevia/hrnet-modal"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": {
+    "name": "jonathanL"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathan-webdevia/hrnet-modal/issues"
+  },
+  "homepage": "https://github.com/jonathan-webdevia/hrnet-modal#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-transition-group": "^4.4.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5"
+  }
+}
